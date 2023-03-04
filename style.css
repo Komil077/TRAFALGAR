@@ -1,0 +1,687 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+body {
+    height: 100vh;
+    width: 100%;
+
+    background-image: url(./Vector.png);
+    background-repeat: no-repeat;
+}
+.header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px 30px 10px 50px;
+    text-decoration: none;
+    margin: 50px;
+}
+
+.headerList{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    column-gap: 100px;
+}
+
+
+.listItem .listLink{
+    text-decoration: none;
+    color: #1F1534;
+    opacity: 0.5;
+    font-size: 20px;
+    transition: 0.5s;
+}
+.listItem .listLinkactive {
+    color:#1F1534;
+    opacity: 1;
+    text-decoration: none;
+    font-size: 20px;
+    transition: 0.5s;
+}
+
+.listItem :hover{
+    color: darkgreen;
+    transition: 0.5s;
+    opacity: 1;
+}
+
+
+.second{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.second .rightImage{
+    width: 693px;
+    height: 598px;
+}
+
+.leftSide .title{
+    font-family: Muli;
+    font-size: 48px;
+    font-weight: 700;
+}
+.leftSide .text{
+    width: 445px;
+    height: 96px;
+    font-family: 'Muli';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 21px;
+    color: #7D7987;
+    margin-top: 25px;
+    margin-right: 109px;
+
+
+}
+
+.button{
+    padding: 25px 40px;
+    background: #458FF6;
+    border-radius: 55px;
+    font-weight: 700;
+    font-size: 18px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 48px;
+}
+
+
+.third{
+    margin: 30px 30px 10px 50px;
+    height: 177px;
+    width: 952px;
+    text-align: center;
+    border-radius: 5px;
+    
+}
+
+.sarlavha{
+    margin-top: 113px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Mulish';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 56px;
+
+
+color: #000000;
+}
+
+.chiz {
+    text-align: center;
+    /* margin-top: 26px; */
+    background: black;
+    border-radius: 6px;
+    width: 56px;
+    height: 2px;
+}
+
+.qoida{
+    margin-top: 33px;
+    font-family: 'Mulish';
+font-style: normal;
+font-weight: 300;
+font-size: 18px;
+line-height: 30px;
+color: #7D7987;
+}
+
+
+.blocks {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-wrap: wrap;
+    column-gap: 35px;
+    margin-left: 250px;
+    
+}
+
+.block{
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    /* flex-wrap: wrap; */
+    /* display: inline-block; */
+    height: 354px;
+    width: 350px;
+    /* background: linear-gradient(175.68deg, #F3F7FF -10.48%, #DEEEFE 92.66%); */
+    /* margin-right: 30px; */
+    /* margin-left: 100px; */
+    margin-bottom: 37px;
+    background: #e9eaee;
+    box-shadow: 10px 40px 50px rgba(211, 212, 218, 0.4);
+    border-radius: 20px;
+
+}
+
+    
+.image{
+    /* display: flex; */
+    /* justify-content: space-between; */
+    margin-top: 54px;
+    margin-left: 37px;
+    /* margin-top: 55px; */
+    /* margin-bottom: 22px; */
+    /* padding: 10px 20px; */
+}
+.titleTwo{
+    font-family: 'Muli';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 56px;
+    color: #000000;
+    mix-blend-mode: normal;
+    margin-left: 38px;
+}
+
+.textTwo{
+    /* height: 10%; */
+    width: 261px;
+    margin-left: 39px;
+    margin-right: 50px;
+    font-style: normal;
+    font-family: 'Muli';
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 28px;
+    color: #7D7987;
+    mix-blend-mode: normal;
+}
+
+.button-two {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 72px;
+}
+.buttonTwo {
+    text-align: center;
+    height: 60px;
+    width: 200px;
+    border-radius: 55px;
+    border-color: #458FF6;
+    color: #458FF6; 
+    background-color: white;   
+    transition: 1s;
+    cursor: pointer;
+    border: none;
+}
+
+.buttonTwo:hover {
+    color: white;
+    background: #458FF6;
+    transition: 1s;
+}
+
+.three {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding: 220px 135px; */
+    margin:  220px 135px;
+}
+.rightSide .leftImage {
+    width: 650px;
+    height: 477px;
+}
+.rightSide .titleThree {
+    margin-left: 142px;
+    margin-bottom: 59px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 56px;    
+    
+    color: #000000;
+    
+}
+.rightSide .textThree {
+    margin-left: 142px;
+    margin-bottom: 37px;
+    font-family: 'Mulish';
+font-style: normal;
+font-weight: 300;
+font-size: 18px;
+
+
+color: #7D7987;
+
+mix-blend-mode: normal;
+}
+
+.buttonThree {
+    margin-left: 150px;
+    height: 60px;
+    width: 200px;
+    left: 700px;
+    top: 2038px;
+    border-radius: 55px;
+    border-color: #458FF6;
+    color: #458FF6; 
+    background-color: white;   
+    transition: 1s;
+    cursor: pointer;
+    border: none;
+}
+.buttonThree:hover {
+    color: white;
+    background: #458FF6;
+    transition: 1s;
+}
+ 
+
+
+
+.Four {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 261px;
+}
+
+.Four .rightImagefour{
+    margin-left: 71px;
+    width: 665px;
+    height: 434px;
+}
+
+.leftSidefour .titleFour {
+    margin-bottom: 63px;
+font-family: 'Mulish';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 48px;
+
+color: #000000;
+
+mix-blend-mode: normal;
+}
+
+.leftSidefour .textFour {
+    margin-bottom: 40px;
+    font-family: 'Mulish';
+font-style: normal;
+font-weight: 300;
+font-size: 18px;
+line-height: 30px;
+
+
+color: #7D7987;
+
+mix-blend-mode: normal;
+}
+
+.buttonFour {
+    margin-left: 5px;
+    height: 60px;
+    width: 200px;
+    left: 700px;
+    top: 2038px;
+    border-radius: 55px;
+    border-color: #458FF6;
+    color: #458FF6; 
+    background-color: white;   
+    transition: 1s;
+    cursor: pointer;
+    border: none;
+}
+.buttonFour:hover {
+    color: white;
+    background: #458FF6;
+    transition: 1s;
+}
+
+
+.Five {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./Rectangle\ 13.png);
+    
+}
+
+.rightSideFive .leftImageFive {
+    position: absolute;
+width: 309.35px;
+height: 425.6px;
+left: 293.07px;
+top: 3831.53px;
+}
+
+.rightSideFive .rightTextFive {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 30px;
+    /* or 158% */
+    
+    
+    color: rgba(255, 255, 255, 0.9);
+    
+    mix-blend-mode: normal;
+}
+
+
+.customer {
+    width: 1120px;
+    margin: auto;
+    padding: 64px 122px;
+    background: linear-gradient(208.18deg, #67C3F3 9.05%, #5A98F2 76.74%);
+    border-radius: 24px;
+    margin-top: 266px;
+    margin-bottom: 223px;
+}
+
+
+.customer .title {
+    text-align: center;
+font-family: 'Muli';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 48px;
+color: #FFFFFF;
+mix-blend-mode: normal;
+}
+.customer .oq-chiziq {
+    /* margin-left: 400px; */
+    text-align: center;
+    background: #FFFFFF;
+    border-radius: 6px;
+    width: 56px;
+    height: 2px;
+    margin-top: 25px;
+}
+.info {
+    display: flex;
+    align-items: flex-end;
+    column-gap: 110px;
+}
+
+.info .leftSide {
+    /* width: 50%; */
+    display: flex;
+    align-items: center;
+}
+.leftSide .man-img {
+    border-radius: 50%;
+    border: 5px solid white;
+}
+
+.leftSide .person {
+    margin-left: 29px;
+    width: 170px;
+}
+
+.leftSide .person .name {
+font-family: 'Muli';
+font-style: normal;
+font-weight: 700;
+font-size: 22px;
+line-height: 48px;
+color: #FFFFFF;
+mix-blend-mode: normal;
+}
+
+.leftSide .person .job {
+font-family: 'Muli';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+color: rgba(255, 255, 255, 0.85);
+mix-blend-mode: normal;
+}
+
+
+.info .rightSide {
+    /* width: 50%; */
+}
+
+.rightSide .content {
+font-family: 'Muli';
+font-style: normal;
+font-weight: 400;
+font-size: 19px;
+line-height: 30px;
+color: rgba(255, 255, 255, 0.9);
+mix-blend-mode: normal;
+padding-top: 114px;
+}
+
+
+
+.article-title {
+    text-align: center;
+}
+.article-title .title {
+    font-family: 'Muli';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 56px;
+    color: #000000;
+    mix-blend-mode: normal;
+}
+.article-title .qora-chiziq {
+    background: black;
+    border-radius: 6px;
+    width: 56px;
+    height: 2px;
+    /* margin-left: 750px; */
+    margin-top: 26px;
+    margin-bottom: 72px;
+}
+
+
+.article {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 35px;
+}
+.article .article-list {
+    /* background: #FFFFFF;
+    box-shadow: 10px 40px 50px rgba(229, 233, 246, 5);
+    border-radius: 20px; */
+    width: 350px;
+    height: 512px;
+    transition: 1s;
+    cursor: pointer;
+}
+.article .article-list:hover {
+    background: #FFFFFF;
+    box-shadow: 10px 40px 50px rgba(229, 233, 246, 5);
+    border-radius: 20px;
+    transition: 1s;
+}
+
+.article-list .title {
+    padding-left: 33px;
+    font-family: 'Muli';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 32px;
+    color: #000000;
+    mix-blend-mode: normal;
+}
+
+.article-list .text {
+    padding-left: 33px;
+    margin-top: 12px;
+    margin-bottom: 25px;
+    font-family: 'Muli';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 28px;
+    color: #7D7987;
+    mix-blend-mode: normal;
+}
+.article-list .link {
+    padding-left: 33px;
+    align-items: center;
+    text-decoration: none;
+    font-family: 'Muli';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 28px;
+    color: #4089ED;
+    mix-blend-mode: normal;
+}
+
+/* .articleList .articleItem {
+box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
+border-radius: 20px;
+display: block;
+}
+.articleItem .articleInfo {
+    padding: 33px 0 66px 35px;
+}
+.articleItem .text {
+    text-decoration: none  ;
+} */
+
+
+.view-all {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.view-all .button {
+    width: 200px;
+    height: 56px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    /* transition: 1s; */
+    margin-top: 72px;
+    margin-bottom: 202px;
+
+    /* padding: 8px 60px; */
+
+    font-family: 'Muli';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 60px;
+    color: #458FF6;
+    background-color: white;
+    border: 1.4px solid #458FF6;
+    border-radius: 55px;
+    mix-blend-mode: normal;
+}
+.view-all .button:hover {
+    color: white;
+    background-color: #458FF6;
+    transition: 1s;
+}
+
+
+
+.footer {
+    background: linear-gradient(183.41deg, #67C3F3 -8.57%, #5A98F2 82.96%);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 109px 190px;
+}
+
+.footer .left {
+    color: white;
+    width: 30%;
+}
+
+.footer .left .trafalgar {
+    display: flex;
+    align-items: center;
+    column-gap: 12px;
+}
+.trafalgar .t {
+    text-align: center;
+    color: #458FF6;
+    background-color: white;
+    width: 41px;  
+    height: 41px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.trafalgar .trafalgar-word {
+    font-family: 'Muli';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    mix-blend-mode: normal;
+    cursor: pointer;
+}
+
+.left .text {
+    padding-top: 22px;
+    padding-bottom: 31px;
+    font-family: 'Muli';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 28px;
+    mix-blend-mode: normal;
+    cursor: pointer;
+}
+.left .info {
+    font-family: 'Muli';
+font-style: normal;
+font-weight: 300;
+font-size: 16px;
+line-height: 28px;
+mix-blend-mode: normal;
+cursor: pointer;
+}
+
+.footer .a-item {
+    font-family: 'Muli';
+font-style: normal;
+font-weight: 700;
+font-size: 25px;
+line-height: 60px;
+color: #FFFFFF;
+mix-blend-mode: normal;
+transition: 1s;
+}
+.a-item:hover {
+    font-size: 30px;
+    transition: 1s;
+}
+
+.footer .a-link {
+    font-family: 'Muli';
+font-style: normal;
+font-weight: 300;
+font-size: 18px;
+line-height: 38px;
+color: #FFFFFF;
+mix-blend-mode: normal;
+transition: 1s;
+}
+.a-link:hover {
+    font-size: 20px;
+    transition: 1s;
+}
+
